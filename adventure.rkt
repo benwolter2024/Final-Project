@@ -386,7 +386,7 @@
   (display-line "gulp, gulp")))
   
 (define-user-command (drink thing)
-  Drinks the beverage.")
+  "Drinks the beverage.")
 
 
 ;;;
