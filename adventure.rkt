@@ -374,6 +374,20 @@
 ;;;
 ;;; ADD YOUR COMMANDS HERE!
 ;;;
+(define (eat thing)
+ (begin (destroy! thing)
+ (desplay-line "This is sooo good")))
+ 
+(define-user-command (eat thing)
+  "Eats the food.")
+  
+(define (drink thing)
+  (begin (destroy! thing)
+  (display-line "gulp, gulp")))
+  
+(define-user-command (drink thing)
+  Drinks the beverage.")
+
 
 ;;;
 ;;; THE GAME WORLD - FILL ME IN
@@ -396,7 +410,9 @@
 ;;;
 ;;; PUT YOUR WALKTHROUGHS HERE
 ;;;
-
+(define-walkthrough win
+  (go (the door))
+  (
 
 
 
