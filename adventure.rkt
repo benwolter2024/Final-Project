@@ -404,6 +404,12 @@
            (join! room1 "kitchen" room2 "pantry")
            ;; Add code here to add things to your rooms
            (main-recipe-book room1)
+           (banana room2)
+           (pie room1)
+           (turkey room1)
+           (eggs room2)
+           (gatorade room2)
+           (bottled water room2)
            (check-containers!)
            (void))))
 
